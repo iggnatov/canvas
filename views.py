@@ -10,7 +10,7 @@ def index(request):
     return HttpResponse(template.render(context, request))
 
 
-def gentella_html(request):
+def canvas(request):
     context = {}
     # The template to be loaded as per gentelella.
     # All resource paths for gentelella end in .html.
